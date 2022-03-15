@@ -1,0 +1,125 @@
+.group{
+    min-width: calc((100vw - 8rem - 80px)/4);
+    max-width: calc((100vw - 8rem - 80px)/4);
+    border: 1px solid grey;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.groupName {
+    background-color: #0000001a ;
+    padding: 5px; 
+    border-radius: 5px;
+}
+
+.groupCount{
+    color: grey;
+    margin-left: 20px;
+}
+
+.newElement{
+    max-width: 100%;
+    width: auto;
+    white-space: pre-wrap;
+    word-break: break-word;
+    caret-color: rgb(55, 53, 47);
+    font-size: 14px;
+    line-height: 1.5;
+    height: inherit;
+    min-height: 1em;
+    font-weight: 500;
+    /* pointer-events: none; */
+    color: rgb(55, 53, 47);
+    -webkit-text-fill-color: rgba(55, 53, 47, 0.5);
+    border: 'none';
+    outline: none;
+    padding-left: 10px;
+}
+
+.newElementWithText{
+    max-width: 100%;
+    width: auto;
+    white-space: pre-wrap;
+    word-break: break-word;
+    caret-color: #222;
+    font-size: 1rem;
+    line-height: 1.5;
+    height: inherit;
+    min-height: 1em;
+    font-weight: 500;
+    flex-wrap: wrap;
+    /* pointer-events: none; */
+    color: #222;
+    -webkit-text-fill-color: #222;
+    border: none;
+    outline: none;
+    margin: 0.83em;
+}
+
+.newElementWithDescription{
+    max-width: 100%;
+    width: auto;
+    white-space: pre-wrap;
+    word-break: break-word;
+    caret-color: #222;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    height: inherit;
+    min-height: 1em;
+    font-weight: 200;
+    /* pointer-events: none; */
+    color: grey;
+    -webkit-text-fill-color: grey;
+    border: none;
+    outline: none;
+    margin: 0 0.83em 0.83em 0.83em;
+}
+
+.outerBox {
+    display: flex;
+    position: relative;
+    align-items: center;
+    color: inherit;
+    text-decoration: none;
+    box-shadow: rgb(15 15 15 / 10%) 0px 0px 0px 1px, rgb(15 15 15 / 10%) 0px 2px 4px;
+    border-radius: 3px;
+    margin-bottom: 5px;
+    background: white;
+    overflow: hidden;
+    transition: background 100ms ease-out 0s;
+    /* position: static; */
+}
+.newElementButton{
+    color: rgba(55, 53, 47, 0.5);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: white;
+    font-size: 1rem;
+    width: 100%;
+    padding: 10px;
+    text-align: start;
+    border-radius: 2px;
+}
+
+.newElementButton:hover{
+    background-color: #0000001a;
+}
+
+.optionsContainer{
+    position: absolute;
+    right: 10px;
+    margin: auto;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgba(55, 53, 47, 0.3);
+    box-shadow: 0px 0px 15px 0px rgba(55, 53, 47, 0.2);
+}
+
+
+.dialogBox{
+    width: 50vw;
+    height: 50vh;
+    margin: auto;
+}
